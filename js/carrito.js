@@ -121,6 +121,7 @@ const sextaCuota= document.querySelector('#sextaCuota')
 function actualizarTotal(){
     let totalCarrito= carrito.reduce((acumulador,prod)=>acumulador+(prod.precio * prod.cantidad),0)
     precio.innerText= `TOTAL: $${totalCarrito}`
+    
 }
 
 
@@ -140,8 +141,8 @@ function cuotasPagar(){
 
 }
 
-cuotasPagar()
 
+cuotasPagar()
 
 
 
@@ -267,7 +268,7 @@ vaciarCarrito.addEventListener('click',()=>{
         tituloCarrito2.classList.remove('disabled')
         carritoProductos.classList.add('disabled')
         recibo.classList.add("disabled")
-        carrito.length = 0;
+        carrito=[];
         localStorage.setItem("carrito", JSON.stringify(carrito));
         }
     })
