@@ -1,3 +1,4 @@
+
 let productos = []
 fetch("./js/productos.json")
     .then(response => response.json())
@@ -98,6 +99,7 @@ function agregarCarrito(id) {
         carrito.push(prodEcontrado)
         localStorage.setItem('carrito', JSON.stringify(carrito))
         actualizarNumeroCarrito()
+        
         Toastify({
             text: "PRODUCTO AGREGADO AL CARRITO 🌟",
             style: {
@@ -123,3 +125,5 @@ function actualizarNumeroCarrito() {
     numerContador.innerText = numeroDelCarrito
     console.log(numeroDelCarrito)
 }
+
+actualizarNumeroCarrito()
