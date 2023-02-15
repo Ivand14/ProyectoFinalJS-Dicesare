@@ -100,19 +100,19 @@ function agregarCarrito(id) {
         localStorage.setItem('carrito', JSON.stringify(carrito))
         actualizarNumeroCarrito()
         
-        Toastify({
-            text: "PRODUCTO AGREGADO AL CARRITO 🌟",
-            style: {
-                background: "#cdb4db",
-                color: "#fafafa",
-                border: "#fafafa solid .1rem",
-                padding: "10px",
-                "border-radius": "1.4rem",
-                "font-size": "1.2rem"
-            },
-            duration: 2000
-        }).showToast();
     }
+    Toastify({
+        text: "PRODUCTO AGREGADO AL CARRITO 🌟",
+        style: {
+            background: "#cdb4db",
+            color: "#fafafa",
+            border: "#fafafa solid .1rem",
+            padding: "10px",
+            "border-radius": "1.4rem",
+            "font-size": "1.2rem"
+        },
+        duration: 2000
+    }).showToast();
 }
 
 

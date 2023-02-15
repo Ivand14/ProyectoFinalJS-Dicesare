@@ -234,7 +234,7 @@ function pagarTodo() {
             tituloCarrito.classList.add('disabled')
             tituloCarrito2.classList.remove('disabled')
             carritoProductos.classList.add('disabled')
-            
+            boletaContenedor.classList.add('disabled')
             carrito = [];
             localStorage.setItem("carrito", JSON.stringify(carrito));
             }
@@ -264,7 +264,7 @@ vaciarCarrito.addEventListener('click',()=>{
         tituloCarrito.classList.add('disabled')
         tituloCarrito2.classList.remove('disabled')
         carritoProductos.classList.add('disabled')
-        
+        boletaContenedor.classList.add('disabled')
         carrito.length = 0;
         localStorage.setItem("carrito", JSON.stringify(carrito));
         }
