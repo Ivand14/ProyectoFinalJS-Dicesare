@@ -61,6 +61,7 @@ actualizarTotal()//PRECIO TOTAL A PAGAR
 
 
 
+
 }else{
     contenedorTotal.classList.add('disabled')
     tituloCarrito.classList.add('disabled')
@@ -121,29 +122,26 @@ const sextaCuota= document.querySelector('#sextaCuota')
 function actualizarTotal(){
     let totalCarrito= carrito.reduce((acumulador,prod)=>acumulador+(prod.precio * prod.cantidad),0)
     precio.innerText= `TOTAL: $${totalCarrito}`
-    
 }
 
 
-function cuotasPagar(){
 
+function pagoCuotas(){
     const precioCuotaUno= carrito.reduce((acum,prod)=>acum+(prod.precio * prod.cantidad),0)
     primerCuota.innerText=`1 cuota de $${precioCuotaUno}`
     primerCuota.value=`1 CUOTA DE $${precioCuotaUno}`
-    
+
     const precioCuotaTres= carrito.reduce((acum,prod)=>acum+Math.floor((prod.precio * prod.cantidad)/3),0)
     tercerCuota.innerText=`3 cuotas de $${precioCuotaTres}` 
     tercerCuota.value=`3 CUOTAS DE $${precioCuotaTres}`
-    
+
     const precioCuotaSeis= carrito.reduce((acum,prod)=>acum+Math.floor((prod.precio * prod.cantidad)/6),0)
     sextaCuota.innerText=`6 cuotas de $${precioCuotaSeis}`
     sextaCuota.value=`6 CUOTAS DE $${precioCuotaSeis}`
 
 }
 
-
-cuotasPagar()
-
+pagoCuotas()
 
 
 
@@ -203,9 +201,9 @@ resumenCompra.addEventListener("click", () => {
         const div= document.createElement('div');
         div.className=('cuerpoBoleta');
         div.innerHTML=`
-                <h2 id="titulo">¡GRACIAS POR TU CONFIANZA! ${persona.Nombre}  </h2>
+                <h2 id="titulo">¡GRACIAS POR TU COMPRA! ${persona.Nombre}  </h2>
                 <h3 id="envio">CORROBORAR EL ENVIO EN TU MAIL: <span class="colorVerde"> ${persona.Email}</span></h3>
-                <h3 id="pago">FORMA DE PAGO<span class="colorVerde"> ${persona.cuotasTotal}</span></h3> </h3>
+                <h3 id="pago">FORMA DE PAGO<span class="colorVerde"> ${persona.cuotasTotal}$</span></h3> </h3>
                 <h3 id="titular">TITULAR DE LA TARJETA:  <span class="colorVerde">${persona.NombreTitular}</span> NUMERO DE LA TARJETA:<span class="colorVerde">${persona.NumeroTarjeta}</h3>
                 <button class="btn-pagar">PAGAR</button>
         `
@@ -236,7 +234,6 @@ function pagarTodo() {
             tituloCarrito.classList.add('disabled')
             tituloCarrito2.classList.remove('disabled')
             carritoProductos.classList.add('disabled')
-            boletaContenedor.classList.add('disabled')
             
             carrito = [];
             localStorage.setItem("carrito", JSON.stringify(carrito));
@@ -267,12 +264,13 @@ vaciarCarrito.addEventListener('click',()=>{
         tituloCarrito.classList.add('disabled')
         tituloCarrito2.classList.remove('disabled')
         carritoProductos.classList.add('disabled')
-        recibo.classList.add("disabled")
-        carrito=[];
+        
+        carrito.length = 0;
         localStorage.setItem("carrito", JSON.stringify(carrito));
         }
     })
 })
+
 
 
 
