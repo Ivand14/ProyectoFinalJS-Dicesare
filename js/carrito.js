@@ -203,7 +203,7 @@ resumenCompra.addEventListener("click", () => {
         div.innerHTML=`
                 <h2 id="titulo">¡GRACIAS POR TU COMPRA! ${persona.Nombre}  </h2>
                 <h3 id="envio">CORROBORAR EL ENVIO EN TU MAIL: <span class="colorVerde"> ${persona.Email}</span></h3>
-                <h3 id="pago">FORMA DE PAGO<span class="colorVerde"> ${persona.cuotasTotal}$</span></h3> </h3>
+                <h3 id="pago">FORMA DE PAGO<span class="colorVerde"> ${persona.cuotasTotal}</span></h3> </h3>
                 <h3 id="titular">TITULAR DE LA TARJETA:  <span class="colorVerde">${persona.NombreTitular}</span> NUMERO DE LA TARJETA:<span class="colorVerde">${persona.NumeroTarjeta}</h3>
                 <button class="btn-pagar">PAGAR</button>
         `
@@ -219,6 +219,9 @@ resumenCompra.addEventListener("click", () => {
     facturaCompra.classList.add("disabled");
 })
 
+
+
+
 function pagarTodo() {
     const btnPagar= document.querySelector('.btn-pagar')
     btnPagar.addEventListener("click", () => {
@@ -230,17 +233,19 @@ function pagarTodo() {
             confirmButtonText: "OK",
         }).then((result) => {
             if (result.isConfirmed) {
-            contenedorTotal.classList.add('disabled')
-            tituloCarrito.classList.add('disabled')
-            tituloCarrito2.classList.remove('disabled')
+                contenedorTotal.classList.add('disabled')
+                tituloCarrito.classList.add('disabled')
+                tituloCarrito2.classList.remove('disabled')
             carritoProductos.classList.add('disabled')
             boletaContenedor.classList.add('disabled')
             carrito = [];
             localStorage.setItem("carrito", JSON.stringify(carrito));
-            }
-        })
-       
-    }
+            persona=[];
+            localStorage.setItem("persona",JSON.stringify(persona))
+        }
+    })
+    
+}
 });
 }
 
@@ -265,11 +270,14 @@ vaciarCarrito.addEventListener('click',()=>{
         tituloCarrito2.classList.remove('disabled')
         carritoProductos.classList.add('disabled')
         boletaContenedor.classList.add('disabled')
-        carrito.length = 0;
+        carrito = [];
         localStorage.setItem("carrito", JSON.stringify(carrito));
+        persona=[];
+        localStorage.setItem("persona",JSON.stringify(persona))
         }
     })
 })
+
 
 
 
