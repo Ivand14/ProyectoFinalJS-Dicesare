@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*COLORES DE LA PAGINA*/
+.contenedor-principal {
+  background-color: #cdb4db;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  overflow: hidden;
+}
+
+.contenedor-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.titulo-principal {
+  font-size: 2rem;
+  font-weight: 100;
+  color: #652c86;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.navbar li {
+  margin-bottom: 2rem;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-items img {
+  height: 3rem;
+}
+.nav-items li {
+  cursor: pointer;
+}
+.nav-items button {
+  cursor: pointer;
+}
+.nav-items a {
+  text-decoration: none;
+}
+
+.nav-items-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.3rem;
+  width: auto;
+}
+.nav-items-carrito img {
+  height: 1.5rem;
+}
+.nav-items-carrito button {
+  cursor: pointer;
+}
+
+#contador-carrito {
+  padding: 0.3rem;
+  border-radius: 46%;
+  color: #652c86;
+}
+
+.contenido-footer {
+  display: flex;
+  color: #652c86;
+}
+.contenido-footer h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.contenedor-main {
+  background-color: #f5ebe0;
+  height: auto;
+  margin: 1rem;
+  margin-right: 3rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  width: auto;
+  overflow: hidden;
+}
+
+#tituloFundas {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #652c86;
+  padding: 2rem;
+}
+
+.fundas {
+  margin-bottom: 5rem;
+  margin-right: 1rem;
+}
+.fundas img {
+  height: 38rem;
+  width: 25rem;
+  border-radius: 2rem;
+}
+
+.contenedor-fundas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem 10rem;
+  gap: 5rem;
+}
+
+.caracteristicas-img {
+  display: flex;
+  flex-direction: column;
+  background-color: #652c86;
+  padding: 2rem;
+  width: 25rem;
+  height: 15rem;
+  border-radius: 2rem;
+  margin-top: -6rem;
+  position: relative;
+  gap: 0.5rem;
+}
+.caracteristicas-img h3 {
+  font-size: 1.2rem;
+  color: #fafafa;
+  height: 5rem;
+  width: auto;
+}
+.caracteristicas-img p {
+  font-size: 1.5rem;
+  color: #fafafa;
+  height: 7rem;
+}
+
+.boton-main.active {
+  background-color: #f5ebe0;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  width: 20rem;
+  border: #f5ebe0 solid 0.1rem;
+  border-radius: 4rem;
+  color: #652c86;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: ease 0.4s;
+}
+
+.boton-main {
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  width: 20rem;
+  border: transparent solid 0.1rem;
+  border-radius: 2rem;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: ease 0.4s;
+}
+
+.boton-main:hover {
+  background-color: #f5ebe0;
+  color: #652c86;
+  width: 20rem;
+  border-radius: 4rem;
+}
+
+.boton-main-carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-transform: uppercase;
+  padding: 1.5rem;
+  width: 18rem;
+  border-radius: 2rem;
+  color: #fafafa;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #cdb4db;
+  border: #cdb4db solid 1rem;
+  transition: ease 0.4s;
+}
+.boton-main-carrito img {
+  height: 2rem;
+}
+
+.boton-main-carrito:hover {
+  background-color: #f5ebe0;
+  color: #652c86;
+  width: auto;
+  border-radius: 4rem;
+}
+
+.boton-agregar {
+  background-color: #f5ebe0;
+  border: #8755a3 solid 0.2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  transition: ease 0.4s;
+  color: #652c86;
+  font-weight: 200;
+}
+
+.boton-agregar:hover {
+  background-color: #6b3e85;
+  border: 0.2rem solid #f5ebe0;
+  color: #fafafa;
+}
+
+.navbar-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-carrito {
+  display: flex;
+  background-color: #cdb4db;
+}
+
+.contenedor-compras {
+  background-color: #f5ebe0;
+  width: 75%;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+
+.titulo-carrito, .titulo-carrito2 {
+  font-size: 2rem;
+  color: #652c86;
+  padding: 2rem;
+}
+
+.contenedorCarritoCompras {
+  display: flex;
+  margin: 2rem 0 5rem 0;
+  background-color: rgba(190, 149, 196, 0.6156862745);
+  border-radius: 2rem;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagenProducto {
+  height: 12rem;
+  border-radius: 2rem;
+}
+
+.nombreProducto, .cantidadProducto, .precioProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  gap: 0.5rem;
+}
+
+.btnEliminar {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.btnEliminar img {
+  height: 3rem;
+}
+
+.volver {
+  transition: ease 0.4s;
+  width: 25rem;
+  margin: 0 1rem;
+}
+
+.volver:hover {
+  background-color: #f5ebe0;
+  color: #652c86;
+  width: 25rem;
+  border-radius: 4rem;
+}
+
+.contenedor-carritoTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enviarModelo, .precioTotal {
+  display: flex;
+  align-items: center;
+}
+.enviarModelo h4, .precioTotal h4 {
+  background-color: rgba(228, 228, 228, 0.6901960784);
+  padding: 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  font-size: 1.5rem;
+  color: #212529;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.precioTotal {
+  flex-direction: row-reverse;
+}
+
+.btnEnviar {
+  height: 3.9rem;
+  cursor: pointer;
+  background-color: rgba(190, 149, 196, 0.6156862745);
+  border: #fafafa solid 0.01rem;
+  padding: 0.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-size: 1.5rem;
+  color: #212529;
+  font-weight: 400;
+  transition: ease 0.4s;
+}
+
+.btnEnviar:hover {
+  background-color: #d4c5d4;
+  color: #fafafa;
+}
+
+.vaciarCarrito {
+  display: flex;
+  align-items: center;
+  height: 3.9rem;
+  cursor: pointer;
+  background-color: rgba(190, 149, 196, 0.6156862745);
+  border: #fafafa solid 0.01rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  transition: ease 0.4s;
+}
+
+.vaciarCarrito:hover {
+  background-color: #d4c5d4;
+  color: #fafafa;
+}
+
+.facturaCompra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  border: #d0d1d1 solid 0.2rem;
+  padding: 1rem;
+  background-color: rgb(233, 225, 214);
+  border-radius: 2rem;
+}
+
+.datosPersonales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductoComprado {
+  display: flex;
+  padding: 4rem;
+  margin-right: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ProductoComprado h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #8755a3;
+}
+
+.contenidoProductos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #8755a3;
+}
+
+.nombre, .apellido, .domicilio, .mail, .celular, .codigoPostal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #8755a3;
+}
+
+.titulo-dPersonales, .titulo-rCompra {
+  text-align: center;
+  margin: 3rem 0;
+  color: #805a96;
+  text-decoration: underline;
+}
+
+.titulo-rCompra {
+  margin-top: 2rem;
+}
+
+.disabled {
+  display: none;
+}
+
+.recibo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  gap: 1rem;
+}
+.recibo h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #652c86;
+}
+.recibo h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #652c86;
+}
+
+.colorVerde {
+  color: green;
+}
+
+.cuerpoBoleta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  gap: 2rem;
+}
+.cuerpoBoleta h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #3b063b;
+}
+.cuerpoBoleta h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #3a053a;
+}
+
+.botonesPago {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.btn-pagar, .volverPagar, .btn-resumen {
+  background-color: #f5ebe0;
+  padding: 1rem;
+  border: #8755a3 0.1rem solid;
+  border-radius: 2rem;
+  color: #8755a3;
+  font-weight: 600;
+  transition: ease 0.4s;
+}
+
+.btn-pagar:hover, .volverPagar:hover, .btn-resumen:hover {
+  background-color: #cdb4db;
+  padding: 1rem;
+  border: #f5ebe0 0.1rem solid;
+  border-radius: 2rem;
+  color: #fafafa;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.volverPagar a {
+  text-decoration: none;
+  color: #8755a3;
+}
+
+/*# sourceMappingURL=styles.css.map */

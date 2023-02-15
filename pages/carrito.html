@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--TOASTIFY-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--CSS PROPIO-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>GOLD STORE</title>
+</head>
+<body>
+    <div class="contenedor-carrito">
+        <aside class="contenedor-aside">
+            <header class="contenedor-header">
+                <h1 class="titulo-principal">GOLD STORE</h1>
+                <div class="navegador">
+                    <nav class="navbar">
+                        <ul class="navbar-contenido">
+                            <li class="nav-items">
+                                <a href="../index.html"><button class="boton-main btn-categoria volver">VOLVER A COMPRAR</button></a>
+                            </li>
+                        </ul>
+    
+                    </nav>
+                </div>
+            </header>
+            <footer class="footer">
+                <div class="contenido-footer">
+                    <h2>COPYRIGTH © GOLD STORE</h2>
+                </div>
+            </footer>
+        </aside>
+        <section class="contenedor-compras">
+            <div class="titulo-compras">
+                <h2 class="titulo-carrito disabled">PRODUCTOS AÑADIDOS AL CARRITO</h2>
+                <h2 class="titulo-carrito2">NO HAY PRODUCTOS EN EL CARRITO</h2>
+            </div>
+            <div class="carrito">
+                <!--JS-->
+            </div>
+            <div class="contenedor-carritoTotal disabled" id="totalPagar">
+                <div class="enviarModelo">
+                    <h4>ENVIAR DISEÑO</h4>
+                    <a href="https://api.whatsapp.com/send?phone=%2B542616331627&fbclid=IwAR3hdFPkaK1Uep59f6YolnwjFhyWAV8L3ffR5L2xXtLlFX3S-2Z11L0JLpU" target="_blank" ><button id="enviar" class="btnEnviar">ENVIAR</button></a>
+                </div>
+                <div class="contenedorVaciar">
+                    <button id="vaciar" class="vaciarCarrito">VACIAR CARRITO</button>
+                </div>
+                <div class="precioTotal">
+                    <button id="comprar" class="btnEnviar">COMPRAR</button>
+                    <h4 id="precio">TOTAL :</h4>
+                </div>
+            </div>
+            <!--FACTURA DE COMPRA-->
+            <div class=" disabled facturaCompra">
+                <div class="formularioCompra">
+                    <div class="nombreLocal">
+                        <h2 id="nombreLocal" style="font-size: 2.5rem;color:#521377;margin: 2rem; text-align: start;">GOLD STORE</h2>
+                    </div>
+                    <h2 class="titulo-dPersonales">DATOS PERSONALES:</h2>
+                    <div class="datosPersonales">
+                        <div class="nombre">
+                            <label for="nombre">NOMBRE</label>
+                            <input type="text" id="nombre" placeholder="ESCRIBA SU NOMBRE" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="apellido">
+                            <label for="apellido">APELLIDO</label>
+                            <input type="text" id="apellido" placeholder="ESCRIBA SU APELLIDO" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="domicilio">
+                            <label for="domicilio">DOMICILIO</label>
+                            <input type="text" id="domicilio" placeholder="ESCRIBA SU DOMICILIO"  style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="celular">
+                            <label for="celular">CELULAR</label>
+                            <input type="number" id="celular" placeholder="ESCRIBA SU CELULAR"  style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="mail">
+                            <label for="mail">EMAIL</label>
+                            <input type="email" id="mail" placeholder="ESCRIBA SU MAIL" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="codigoPostal">
+                            <label for="codigoPostal">CODIGO POSTAL</label>
+                            <input type="number" id="codigoPostal" placeholder="ESCRIBA SU CP" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <h2 class="titulo-rCompra" style="margin:2rem 0 1rem 0">RECIBO DE COMPRA</h2>
+                <div class="ProductoComprado">
+                    <div class="contenidoProductos">
+                        <div class="nombreTitular">
+                            <label for="nombreTitular">NOMBRE DEL TITULAR:</label>
+                            <input type="text" id="nombreTitular" placeholder="TITULAR DE LA TARJETA" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="tarjeta">
+                            <label for="tarjeta">NUMERO DE TARJETA:</label>
+                            <input type="number" id="tarjeta" placeholder="NUMERO DE LA TARJETA" style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                        </div>
+                        <div class="cuotas">
+                            <label for="cuotas">SELECCIONAR CUOTAS:</label>
+                            <select name="cuotas" id="cuotasTarjeta"  style="width: 18rem;border-radius: 1rem;height: 2.5rem;">
+                                <option id="primerCuota">1 CUOTA</option>
+                                <option id="tercerCuota">3 CUOTAS</option>
+                                <option id="sextaCuota">6 CUOTAS</option>
+                            </select>
+                        </div>
+                        <button class="btn-resumen" id="resumenCompra">CONTINUAR</button>
+                    </div>
+                </div>
+            </div>
+            <div class="boletaContenedor" id="contenedorBoleta">
+                <!--js-->
+            </div>
+        </section>
+
+
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

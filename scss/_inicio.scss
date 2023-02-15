@@ -1,0 +1,209 @@
+.contenedor-principal{
+    background-color: $colorFondo;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    overflow: hidden;
+}
+
+.contenedor-aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+}
+    
+
+.titulo-principal{
+    font-size: 2rem;
+    font-weight: 100;
+    color: $colorTitulo;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    li{
+        margin-bottom: 2rem;
+    }
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        height: 3rem;
+    }
+    li{
+        cursor: pointer;
+    }
+    button{
+        cursor: pointer;
+    }
+    a{
+        text-decoration:none;
+    }
+}
+
+.nav-items-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    padding: .3rem;
+    width: auto;
+    img{
+        height: 1.5rem;
+    }
+    button{
+        cursor: pointer;
+    }
+}
+#contador-carrito{
+    padding: .3rem;
+    border-radius: 46%;
+    color: $colorTitulo;
+}
+
+.contenido-footer{
+    display: flex;
+    color: $colorTitulo;
+    h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+.contenedor-main{
+    background-color: $colorFondo2;
+    height: auto;
+    margin: 1rem;
+    margin-right: 3rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    width: auto;
+    overflow: hidden;
+}
+
+#tituloFundas{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: $colorTitulo;
+    padding: 2rem;
+}
+.fundas{
+    img{
+        height: 38rem;
+        width: 25rem;
+        border-radius: 2rem;
+    }
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+}
+
+.contenedor-fundas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 10rem;
+    gap: 5rem;
+}
+.caracteristicas-img{
+    display: flex;
+    flex-direction: column;
+    background-color: $colorTitulo;
+    padding: 2rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-top: -6rem;
+    position: relative;
+    gap: .5rem;
+    h3{
+        font-size: 1.2rem;
+        color: $color-tituloSecundario;
+        height: 5rem;
+        width: auto;
+    }
+    p{
+        font-size: 1.5rem;
+        color: $color-tituloSecundario;
+        height: 7rem;
+    }
+}
+.boton-main.active{
+    background-color: $colorFondo2;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    width: 20rem;
+    border: $colorFondo2 solid .1rem;
+    border-radius: 4rem;
+    color: $colorTitulo;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: ease .4s;
+}
+
+.boton-main{
+    background-color: transparent;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    width: 20rem;
+    border: transparent solid .1rem;
+    border-radius: 2rem;
+    color: $color-tituloSecundario;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: ease .4s;
+}
+.boton-main:hover{
+    background-color: $colorFondo2;
+    color: $colorTitulo;
+    width: 20rem;
+    border-radius: 4rem;
+}
+.boton-main-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    width: 18rem;
+    border-radius: 2rem;
+    color: $color-tituloSecundario;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: $colorFondo;
+    border: $colorFondo solid 1rem;
+    img{
+        height: 2rem;
+    }
+    transition: ease .4s;
+}
+.boton-main-carrito:hover{
+    background-color: $colorFondo2;
+    color: $colorTitulo;
+    width: auto;
+    border-radius: 4rem;
+}
+.boton-agregar{
+    background-color: $colorFondo2;
+    border: $color-boton solid .2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: .5rem;
+    transition: ease .4s;
+    color: $colorTitulo;
+    font-weight: 200;
+}
+
+.boton-agregar:hover{
+    background-color: $color-botonHover;
+    border: .2rem solid $colorFondo2;
+    color: $color-tituloSecundario;
+}

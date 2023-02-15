@@ -1,0 +1,285 @@
+//CARRITO
+.navbar-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-carrito{
+    display: flex;
+    background-color: $colorFondo;
+}
+.contenedor-compras{
+    background-color: $colorFondo2;
+    width: 75%;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+
+.titulo-carrito{
+    font-size: 2rem;
+    color: $colorTitulo;
+    padding: 2rem;
+}
+.titulo-carrito2{
+    @extend .titulo-carrito;
+}
+.contenedorCarritoCompras{
+    display: flex;
+    margin: 2rem 0 5rem 0;
+    background-color:#be95c49d;
+    border-radius: 2rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagenProducto{
+    height: 12rem;
+    border-radius: 2rem;
+}
+.nombreProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #ffffff;
+    gap: .5rem
+}
+.cantidadProducto,.precioProducto{
+    @extend .nombreProducto;
+}
+.btnEliminar{
+    background-color:transparent ;
+    border:transparent;
+    cursor: pointer;
+    img{
+        height: 3rem;
+    }
+}
+.volver{
+    transition: ease .4s;
+    width: 25rem;
+    margin: 0 1rem;
+}
+.volver:hover{
+    background-color: $colorFondo2;
+    color: $colorTitulo;
+    width: 25rem;
+    border-radius: 4rem;
+}
+
+.contenedor-carritoTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enviarModelo{
+    display: flex;
+    align-items: center;
+    h4{
+        background-color:#e4e4e4b0;
+        padding: 1rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        font-size: 1.5rem;
+        color: #212529;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+}
+.precioTotal{
+    @extend .enviarModelo;
+    flex-direction: row-reverse;
+}
+.btnEnviar{
+    height: 3.9rem;
+    cursor: pointer;
+    background-color:#be95c49d;
+    border:$color-tituloSecundario solid .01rem;
+    padding: .5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size: 1.5rem;
+    color: #212529;
+    font-weight: 400;
+    transition: ease .4s;
+}
+
+.btnEnviar:hover{
+    background-color: #d4c5d4;
+    color: $color-tituloSecundario;
+}
+
+.vaciarCarrito{
+    display: flex;
+    align-items: center;
+    height: 3.9rem;
+    cursor: pointer;
+    background-color:#be95c49d;
+    border:$color-tituloSecundario solid .01rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    transition: ease .4s;
+}
+.vaciarCarrito:hover{
+    background-color: #d4c5d4;
+    color: $color-tituloSecundario;
+}
+.facturaCompra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    border: #d0d1d1 solid .2rem;
+    padding: 1rem;
+    background-color: rgb(233, 225, 214);
+    border-radius: 2rem;
+}
+
+.datosPersonales{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductoComprado{
+    display: flex;
+    padding: 4rem;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    h3{
+        font-size: 1.5rem;
+        font-weight: 200;
+        color: #8755a3;
+    }
+}
+
+.contenidoProductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #8755a3;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #8755a3;
+}
+
+.apellido, .domicilio, .mail , .celular,.codigoPostal{
+    @extend .nombre
+}
+
+.titulo-dPersonales{
+    text-align: center;
+    margin: 3rem 0;
+    color: #805a96;
+    text-decoration: underline;
+}
+
+.titulo-rCompra{
+    @extend .titulo-dPersonales;
+    margin-top: 2rem;
+}
+
+
+.disabled{
+    display: none;
+}
+
+.recibo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    
+    gap: 1rem;
+    h2{
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: $colorTitulo;
+    }
+    h3{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $colorTitulo;
+    }
+}
+.colorVerde{
+    color: green;
+}
+.cuerpoBoleta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    gap: 2rem;
+        h2{
+            font-size: 2.4rem;
+            font-weight: 600;
+            color: #3b063b;
+        }
+        h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #3a053a;
+        }
+}
+
+.btn-resumen{
+    @extend .btn-pagar;
+}
+
+.botonesPago{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.btn-pagar{
+    background-color: $colorFondo2;
+    padding: 1rem;
+    border: #8755a3 .1rem solid;
+    border-radius: 2rem;
+    color: #8755a3;
+    font-weight: 600;
+    transition: ease .4s;
+}
+
+.btn-pagar:hover{
+    background-color: $colorFondo;
+    padding: 1rem;
+    border: $colorFondo2 .1rem solid;
+    border-radius: 2rem;
+    color: $color-tituloSecundario;
+    font-weight: 600;
+    cursor: pointer;
+}
+.volverPagar{
+    @extend .btn-pagar;
+    a{
+        text-decoration: none;
+        color: #8755a3;
+    }
+}
+
+.volverPagar{
+    @extend .btn-pagar;
+}

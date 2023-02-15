@@ -1,0 +1,75 @@
+[
+
+
+    {"id":1,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/20220321_102521.jpg","producto":"FUNDA NEGRA CON ESTRELLAS Y CORAZONES","precio":2000,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":2,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/20220326_100501.jpg", "producto":"FUNDA HARRY STYLES","precio":2000,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":3,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/20220417_191433.jpg","producto":"FUNDA HOGWARTS","precio":2000,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":4,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Degrade celeste + strass corazones y estrellas azules, celestes y plateados+ glitter plateado.jpg","producto":"DEGRADE CELESTE CON STRASS DE CORAZONES Y ESTRELLAS","precio":2000,"categoria":{"id":4,"nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":5,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter violeta y stikers.jpg","producto":"MIX DE STICKERS","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":6,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter Violeta_.jpg","producto":"GLITTER VIOLETA","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":7,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Fondo de glitter azul y celeste + corazones fucsias.jpg","producto":"FONDO GLITTER AZUL Y CELESTE+STICKER","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":8,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Fondo glitter dorado + stikers.jpg","producto":"FONDO GLITTER DORADO+STICKER","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":9,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Fondo glitter plateado.jpg","producto":"FONDO GLITTER PLATEADO","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":10,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter dorado_(1).jpg","producto":"GLITTER DORADO","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":11,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter plateado+ stikers margaritas.jpg","producto":"GLITTER PLATEADO+STCIKER","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":12,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter blanco + stras de estrellas plateadas+ stikers mariposas.jpg","producto":"GLITTER BLANCO+STRASS ESTRELLAS PLATEADAS+STICKER","precio":3000,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":13,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter blanco y rosa con estrellas plateadas.jpg","producto":"GLITTER BLANCO Y ROSA CON ESTRELLAS PLATEADAS","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":14,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter blanco_.jpg","producto":"GLITTER BLANCO","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":15,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Glitter celeste y blanco+ stikers.jpg","producto":"GLITTER CELESTE Y BLANCO+STICKER","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":16,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Mármol abstracto+ glitter blanco.jpg" ,"producto":"MARMOL ABSTRACTO+GLITTER BLANCO","precio":3000,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":17,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Papel oro color plateado + glitter plateado.jpg","producto":"COLOR PLATEADO + GLITTER PLATEADO","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    {"id":18,"cantidad":1,"img":"./img/Fundas PERSONALIZADAS/Ejemplos/Podes elegir un fondo de color o transparente.jpg","producto":"FONDO DE COLOR O TRANSPARENTE","precio":2500,"categoria":{"id":"personalizadas","nombre":"FUNDAS PERSONALIZADAS"}},
+    
+
+
+
+    {"id":19,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/CUBRE CAMARA TRANSPARENTE AZUL.jpg","producto":"CUBRE CAMARA TRANSPARENTE AZUL","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":20,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/CUBRE CAMARA TRANSPARENTE LILA.jpg","producto":"CUBRE CAMARA TRANSPARENTE LILA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":21,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/CUBRE CAMARA TRANSPARENTE NEGRO.jpg","producto":"CUBRE CAMARA TRANSPARENTE NEGRO","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":22,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/CUBRE CAMARA TRANSPARENTE ROSA SALMON.jpg","producto":"CUBRE CAMARA TRANSPARENTE ROSA SALMON","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":23,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/CUBRE CAMARA TRANSPARENTE VERDE AGUA.jpeg","producto":"CUBRE CAMARA TRANSPARENTE VERDE AGUA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":24,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/LAMINA CASE DORADA.jpg","producto":"LAMINA CASE DORADA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":25,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/LAMINA CASE ROJA.jpg","producto":"LAMINA CASE ROJA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":26,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA AMARILLA BN.jpg","producto":"REFORZADA AMARILLA BN","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":27,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE ARCOIRIS.jpg","producto":"REFORZADA BRILLANTE ARCOIRIS","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":28,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE CAMUFLADA.jpg","producto":"REFORZADA BRILLANTE CAMUFLADA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":29,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE HERBIE.jpg","producto":"REFORZADA BRILLANTE HERBIE","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":30,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE HOMERO.jpg","producto":"REFORZADA BRILLANTE HOMERO","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":31,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE MICKEY.jpg","producto":"REFORZADA BRILLANTE MICKE","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":32,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA BRILLANTE WE LOVE STITCH.jpg","producto":"REFORZADA BRILLANTE WE LOVE STITCH","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":33,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA CELESTE BN.jpg","producto":"REFORZADA CELESTE BN","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":34,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA NEGRA BN.jpg","producto":"REFORZADA NEGRA BN","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":35,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/REFORZADA ROSA BN.jpg","producto":"REFORZADA ROSA BN","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":36,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/RIGIDA CAMUFLADA.jpeg","producto":"RIGIDA CAMUFLADA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":37,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/RIGIDA FLORES ROSAS.jpeg","producto":"RIGIDA FLORES ROSAS","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":38,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/SILICONE SOFT AMARILLA.jpeg","producto":"SILICONE SOFT AMARILLA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":39,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/SILICONE SOFT VERDE AGUA.jpeg","producto":"SILICONE SOFT VERDE AGUA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":40,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/SILICONE SOFT VIOLETA.jpeg","producto":"SILICONE SOFT VIOLETA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":41,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/TPU REFORZADA CELESTE.jpeg","producto":"TPU REFORZADA CELESTE","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":42,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/Transparente reforzada.jpeg","producto":"TRANSPARENTE REFORZADA","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":43,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/VIDRIO TEMPLADO 9D.jpeg","producto":"VIDRIO TEMPLADO 9D","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+    {"id":44,"cantidad":1,"img":"./img/Fundas CONVENCIONALES/VIDRIO TEMPLADO COMÚN IPHONE.jpeg","producto":"VIDRIO TEMPLADO COMÚN IPHONE","precio":2000,"categoria":{"id":"convencionales","nombre":"FUNDAS CONVENCIONALES"}},
+
+
+    
+    {"id":45,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_142914.jpg","producto":"LLAVERO DE MINNIE","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":46,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_143522.jpg","producto":"LLAVERO LETRA G","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":47,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_143603.jpg","producto":"LLAVERO LETRA E","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":48,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_143636.jpg","producto":"LLAVERO LETRA C","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":49,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_143814.jpg","producto":"LLAVERO LETRA S","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":50,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_143911.jpg","producto":"LLAVERO LETRA M","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":51,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_144328.jpg","producto":"LLAVERO LETRA K","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":52,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_144504.jpg","producto":"LLAVERO LETRA B","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":53,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/20221213_152214.jpg","producto":"LLAVERO CORAZÓN","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+    {"id":54,"cantidad":1,"img":"./img/LLAVEROS/Stock disponible/IMG_8514.jpg","producto":"LLAVERO DE PATITA DE PERRO","precio":700,"categoria":{"id":"llaveros","nombre":"LLAVEROS"}},
+
+
+
+    {"id":55,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7102.jpg","producto":"COME CABLES DE ANIMALES","precio":300,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}},
+    {"id":56,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7712.jpg","producto":"COME CABLES PARA IPHONE","precio":300,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}},
+    {"id":57,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7719.jpg","producto":"COME CABLES EN ESPIRAL","precio":500,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}},
+    {"id":58,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7731.jpg","producto":"PORTACARGADOR CELESTE","precio":500,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}},
+    {"id":59,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7733.jpg","producto":"PORTACARGADOR VERDE AGUA","precio":500,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}},
+    {"id":60,"cantidad":1,"img":"./img/ACCESORIOS/IMG_7735.jpg","producto":"ENRROLLA CABLE","precio":700,"categoria":{"id":"accesorios","nombre":"ACCESORIOS"}}
+
+]
