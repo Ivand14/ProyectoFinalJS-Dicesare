@@ -21,6 +21,48 @@ ul li {
   overflow: hidden;
 }
 
+.contenedorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.formulario {
+  height: 4vh;
+  width: 35vh;
+  border-radius: 1rem;
+  border: solid 0.2rem #8755a3;
+  padding: 1.4rem;
+}
+
+input:focus {
+  color: #8755a3;
+  border-color: solid 0.2rem #8755a3 !important;
+}
+
+.buscadorContenedor {
+  display: flex;
+  gap: 0.5rem;
+}
+.buscadorContenedor img {
+  height: 2rem;
+}
+
+.boton-buscar {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  transition: ease 0.4s;
+}
+
+.boton-buscar:hover {
+  background-color: beige;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
 .contenedor-aside {
   display: flex;
   flex-direction: column;

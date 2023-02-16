@@ -127,3 +127,8 @@ function actualizarNumeroCarrito() {
 }
 
 actualizarNumeroCarrito()
+
+
+const btnBuscador=document.querySelector('#buscador');
+const formulario= document.querySelector('#formulario');
+

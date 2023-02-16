@@ -103,6 +103,7 @@ function eliminarDelCarrito(e){
         }).showToast();
     cargarProductosCarrito()
     localStorage.setItem('carrito',JSON.stringify(carrito))
+    pagoCuotas()
 }
 
 //ACTUALIZAMOS EL PRECIO TOTAL A PAGAR 
@@ -127,6 +128,9 @@ function actualizarTotal(){
 
 
 function pagoCuotas(){
+
+
+
     const precioCuotaUno= carrito.reduce((acum,prod)=>acum+(prod.precio * prod.cantidad),0)
     primerCuota.innerText=`1 cuota de $${precioCuotaUno}`
     primerCuota.value=`1 CUOTA DE $${precioCuotaUno}`
@@ -141,8 +145,8 @@ function pagoCuotas(){
 
 }
 
-pagoCuotas()
 
+pagoCuotas()
 
 
 
