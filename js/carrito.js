@@ -253,6 +253,8 @@ function pagarTodo() {
 });
 }
 
+const formulario=document.querySelector('#formulario')
+
 vaciarCarrito.addEventListener('click',()=>{
     Swal.fire({
         title: 'ESTAS SEGURO?',
@@ -274,6 +276,7 @@ vaciarCarrito.addEventListener('click',()=>{
         tituloCarrito2.classList.remove('disabled')
         carritoProductos.classList.add('disabled')
         boletaContenedor.classList.add('disabled')
+        formulario.classList.add('disabled')
         carrito = [];
         localStorage.setItem("carrito", JSON.stringify(carrito));
         persona=[];
